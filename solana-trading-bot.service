@@ -1,0 +1,18 @@
+[Unit]
+Description=Solana Trading Bot
+After=network.target
+
+[Service]
+Type=simple
+User=basel
+WorkingDirectory=/home/basel/.openclaw/workspace/solana-trading-bot
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=solana-trading-bot
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

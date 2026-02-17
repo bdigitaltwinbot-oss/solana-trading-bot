@@ -1,9 +1,35 @@
 node_modules/
 .env
 .env.local
+.env.*.local
 logs/
-dist/
 *.log
+data/
+dist/
+build/
+
+# Wallet (NEVER commit this)
+wallet.json
+*.key
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# PM2
+.pm2/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
