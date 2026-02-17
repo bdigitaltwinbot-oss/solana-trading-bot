@@ -19,7 +19,7 @@
   "dependencies": {
     "@solana/web3.js": "^1.87.0",
     "@solana/spl-token": "^0.3.9",
-    "@jup-ag/core": "^4.0.0",
+    "@jup-ag/api": "^6.0.0",
     "axios": "^1.6.0",
     "dotenv": "^16.3.0",
     "winston": "^3.11.0",
